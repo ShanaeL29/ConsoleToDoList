@@ -24,7 +24,7 @@ while (userInput) {
 
   if (userInput === "quit") {
     console.log("OK, EXITING THE APP NOW");
-    break; // **prevents infinite loop**
+    break; // ***prevents infinite loop***
   }
 
   userInput = prompt("What would you like to do now?");
