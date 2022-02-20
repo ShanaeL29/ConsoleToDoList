@@ -5,9 +5,7 @@ Very simple demonstration of loop implementation using JavaScript!
 
 Console MUST be open and visible.
 
-User should be able to add a new task by inputting "new" when initially prompted "What would you like to do?".
-
-User can then add a new task of their choosing. The task will be added to a list and maintained until the app is "quit".
+User should be able to add a new task by inputting "new" when initially prompted "What would you like to do?". User can then add a new task of their choosing. The task will be added to a list and maintained until the app is "quit".
 
 If user would like a list of their current tasks, they can input "list" when prompted "What would you like to do?". This will display the current list of tasks in the console along with their index.
 
