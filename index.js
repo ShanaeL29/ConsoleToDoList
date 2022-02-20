@@ -18,8 +18,9 @@ while (userInput) {
 
   if (userInput === "delete") {
     input = prompt("Enter the index of the toDo you want deleted");
-    toDoList.splice([input], 1);
-    console.log("toDo Removed");
+    // toDoList.splice([input], 1);
+    const deleted = toDoList.splice([input], 1);
+    console.log(`Task: '${deleted}' removed from list`);
   }
 
   if (userInput === "quit") {
@@ -27,7 +28,7 @@ while (userInput) {
     break; // **prevents infinite loop**
   }
 
-  userInput = prompt("What would you like to do now?");
+  userInput = prompt("What would you like to do?");
 
   if (
     userInput !== "new" &&
@@ -35,6 +36,6 @@ while (userInput) {
     userInput !== "delete" &&
     userInput !== "quit"
   ) {
-    alert("Sorry, I don't recognize that entry, please");
+    alert("Sorry, I don't recognize that entry, please try again!");
   }
 }
