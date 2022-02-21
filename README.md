@@ -15,3 +15,4 @@ When the user is done with the application they should enter "quit" when prompt 
 
 If the user enters any other input they will receive an alert. Clicking "Ok" will close the alert and initiate new prompt.
 
+Check back soon as I will be turning this into a full front and backend application as I continue to learn!
