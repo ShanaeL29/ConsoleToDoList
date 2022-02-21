@@ -17,9 +17,8 @@ while (userInput) {
   }
 
   if (userInput === "delete") {
-    input = prompt("Enter the index of the toDo you want deleted");
-    // toDoList.splice([input], 1);
-    const deleted = toDoList.splice([input], 1);
+    userInput = prompt("Enter the index of the toDo you want deleted");
+    const deleted = toDoList.splice([userInput], 1);
     console.log(`Task: '${deleted}' removed from list`);
   }
 
